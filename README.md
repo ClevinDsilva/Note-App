@@ -1,31 +1,35 @@
-# 📝 Note App
+# 📝 Android Note App using Room Database
 
-A simple and lightweight **Note-Taking Web Application** that allows users to create, edit, and delete personal notes. This application is designed to help users store quick thoughts and tasks in an easy-to-use interface.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** (Optional - depending on your implementation)
-- **Storage:** LocalStorage / (Optional: Firebase / Node.js with MongoDB)
+A modern **Android Note-Taking Application** built with **Room Database**, **MVVM Architecture**, and **Kotlin/Java**. This app allows users to create, update, and delete personal notes with persistent storage using SQLite via Room.
 
 ---
 
-## 📁 Project Structure
+## 📱 Tech Stack
 
-![image](https://github.com/user-attachments/assets/e6a83e32-dd50-4f03-b959-cc0badc4031b)
-
+- **Language:** Kotlin / Java
+- **Database:** Room (SQLite)
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **Jetpack Components:** LiveData, ViewModel, Room, RecyclerView
+- **UI:** Material Design
 
 ---
 
-## ✨ Features
+## 🎯 Features
 
-- Create and save new notes
-- Edit existing notes
-- Delete notes
-- Persistent note storage using `localStorage`
-- Clean, responsive UI
+- 📝 Add new notes
+- ✏️ Edit existing notes
+- 🗑 Delete notes
+- 🔍 Search/filter notes (optional)
+- 📅 Date and time stamp for notes
+- 🧠 Lightweight and fast
+- 💾 Offline-first (uses local DB)
+
+---
+
+## 🧱 Project Structure
+
+![image](https://github.com/user-attachments/assets/8a46193d-64a5-4a15-b64f-9272a75e982b)
+
 
 ---
 
@@ -33,32 +37,30 @@ A simple and lightweight **Note-Taking Web Application** that allows users to cr
 
 ### 📦 Prerequisites
 
-- Any modern web browser
-- No backend or database setup required (if using localStorage)
+- Android Studio (Electric Eel or newer)
+- Android SDK 21+
+- Gradle 7+
 
-### ▶️ Running the App
+### 🧑‍💻 How to Run
 
 1. **Clone the Repository**
-
 # bash
 git clone https://github.com/ClevinDsilva/Note-App.git
-cd Note-App
 
-# Open in Browser
+# Open in Android Studio
 
-Double-click index.html
-or
+File → Open → Navigate to the cloned project
 
-Open via Live Server (VS Code extension)
+# Sync Gradle
 
-# 💡 Future Enhancements
-Add authentication (Google/Firebase)
+Let Android Studio sync and build the project
 
-Cloud database support (MongoDB/Firebase)
+# Run the App
 
-Markdown support for notes
+Use a physical device or emulator
 
-Color-coded notes or tags
+Click ▶️ to run
+
 
 # Project Doc
 
